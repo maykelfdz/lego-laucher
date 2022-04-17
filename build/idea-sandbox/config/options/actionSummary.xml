@@ -1,0 +1,40 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="CWMHostShowPopupAction">
+      <i c="2" l="1649952622340" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="1" l="1649951514379" />
+    </e>
+    <e n="EditorPaste">
+      <i c="1" l="1649951509765" />
+    </e>
+    <e n="FileChooser.Refresh">
+      <i c="1" l="1649951267312" />
+    </e>
+    <e n="JShell.Console">
+      <i c="1" l="1649952657175" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="2" l="1649952609014" />
+    </e>
+    <e n="ViewToolBar">
+      <i c="1" l="1649952697598" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1649951219973" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="3" l="1649951508321" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1649956935113" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1649952666998" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+      <i c="1" l="1649956938760" />
+    </e>
+  </component>
+</application>
