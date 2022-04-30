@@ -16,9 +16,10 @@
   </extensions>
   <actions>
     <!-- Add your actions here -->
-    <action id="laucher" class="action.LegoLaucher" text="Lego laucher">
+    <action id="laucher" class="action.LegoLaucher" text="Lego laucher" icon="/icons/legoIconmin.png">
       <add-to-group group-id="ToolsMenu" anchor="first" />
       <add-to-group group-id="MainToolBarSettings" anchor="first" />
+      <keyboard-shortcut keymap="$default" first-keystroke="alt l" />
     </action>
   </actions>
 </idea-plugin>

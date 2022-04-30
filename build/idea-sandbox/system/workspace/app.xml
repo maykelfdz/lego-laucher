@@ -1034,8 +1034,22 @@
               </dataSet>
             </plugins>
           </entry>
+          <entry key="java:com.amazonaws:aws-java-sdk-core">
+            <plugins>
+              <dataSet>
+                <plugin pluginId="aws.toolkit" pluginName="AWS Toolkit" />
+              </dataSet>
+            </plugins>
+          </entry>
+          <entry key="java:software.amazon.awssdk:sdk-core">
+            <plugins>
+              <dataSet>
+                <plugin pluginId="aws.toolkit" pluginName="AWS Toolkit" />
+              </dataSet>
+            </plugins>
+          </entry>
         </featureMap>
-        <option name="lastUpdateTime" value="1649956801167" />
+        <option name="lastUpdateTime" value="1651316401960" />
       </features>
     </option>
     <option name="extensions">
@@ -4713,6 +4727,7 @@
                 <plugin pluginId="GLSL" pluginName="GLSL Support" />
                 <plugin pluginId="com.intellij.resharper.unity" pluginName="Unity Support" />
                 <plugin pluginId="OpenGL-Plugin" pluginName="OpenGL Support" />
+                <plugin pluginId="com.github.leeteng2001.betterglsljetbrain" pluginName="Better Glsl" />
               </dataSet>
             </plugins>
           </entry>
@@ -4987,6 +5002,7 @@
               <dataSet>
                 <plugin pluginId="com.github.b3er.idea.plugins.arc.browser" pluginName="Archive Browser" />
                 <plugin pluginId="com.github.camork.fileExpander" pluginName="File Expander" />
+                <plugin pluginId="ai.expert.studio" pluginName="Expert.ai Studio Core" />
               </dataSet>
             </plugins>
           </entry>
@@ -5507,6 +5523,7 @@
             <plugins>
               <dataSet>
                 <plugin pluginId="PlantUML integration" pluginName="PlantUML integration" />
+                <plugin pluginId="PlantUML integration" pluginName="PlantUML Integration" />
               </dataSet>
             </plugins>
           </entry>
@@ -5720,6 +5737,7 @@
             <plugins>
               <dataSet>
                 <plugin pluginId="com.qalens.corr" pluginName="Journey Prgramming" />
+                <plugin pluginId="com.qalens.corr" pluginName="Journey Programming" />
               </dataSet>
             </plugins>
           </entry>
@@ -5878,6 +5896,7 @@
             <plugins>
               <dataSet>
                 <plugin pluginId="com.github.zzehring.intellijjsonnet" pluginName="Jsonnet Language Server" />
+                <plugin pluginId="today.movatech.plugins.jsonnet" pluginName="Jsonnet Templating Language Support" />
               </dataSet>
             </plugins>
           </entry>
@@ -6483,6 +6502,7 @@
             <plugins>
               <dataSet>
                 <plugin pluginId="com.github.zzehring.intellijjsonnet" pluginName="Jsonnet Language Server" />
+                <plugin pluginId="today.movatech.plugins.jsonnet" pluginName="Jsonnet Templating Language Support" />
               </dataSet>
             </plugins>
           </entry>
@@ -8236,6 +8256,7 @@
             <plugins>
               <dataSet>
                 <plugin pluginId="PlantUML integration" pluginName="PlantUML integration" />
+                <plugin pluginId="PlantUML integration" pluginName="PlantUML Integration" />
               </dataSet>
             </plugins>
           </entry>
@@ -8661,6 +8682,7 @@
             <plugins>
               <dataSet>
                 <plugin pluginId="PlantUML integration" pluginName="PlantUML integration" />
+                <plugin pluginId="PlantUML integration" pluginName="PlantUML Integration" />
               </dataSet>
             </plugins>
           </entry>
@@ -13146,8 +13168,78 @@
               </dataSet>
             </plugins>
           </entry>
+          <entry key=".beancombiner">
+            <plugins>
+              <dataSet>
+                <plugin pluginId="org.tzraeq.BeanCombiner" pluginName="Bean Combiner" />
+              </dataSet>
+            </plugins>
+          </entry>
+          <entry key="*.agent">
+            <plugins>
+              <dataSet>
+                <plugin pluginId="com.badahori.creatures.plugins.intellij.agenteering" pluginName="Creatures CAOS and Agenteering" />
+              </dataSet>
+            </plugins>
+          </entry>
+          <entry key="*.agents">
+            <plugins>
+              <dataSet>
+                <plugin pluginId="com.badahori.creatures.plugins.intellij.agenteering" pluginName="Creatures CAOS and Agenteering" />
+              </dataSet>
+            </plugins>
+          </entry>
+          <entry key="*.bdl">
+            <plugins>
+              <dataSet>
+                <plugin pluginId="com.github.ceclin.bdlh" pluginName="BDLH" />
+              </dataSet>
+            </plugins>
+          </entry>
+          <entry key="*.job">
+            <plugins>
+              <dataSet>
+                <plugin pluginId="io.terminus.trantor.plugin" pluginName="Trantor" />
+              </dataSet>
+            </plugins>
+          </entry>
+          <entry key="*.pray">
+            <plugins>
+              <dataSet>
+                <plugin pluginId="com.badahori.creatures.plugins.intellij.agenteering" pluginName="Creatures CAOS and Agenteering" />
+              </dataSet>
+            </plugins>
+          </entry>
+          <entry key="*.workload">
+            <plugins>
+              <dataSet>
+                <plugin pluginId="com.qalens.corr" pluginName="Journey Programming" />
+              </dataSet>
+            </plugins>
+          </entry>
+          <entry key="Dockerfile.native-micro">
+            <plugins>
+              <dataSet>
+                <plugin pluginId="Docker" pluginName="Docker" />
+              </dataSet>
+            </plugins>
+          </entry>
+          <entry key="go.work">
+            <plugins>
+              <dataSet>
+                <plugin pluginId="org.jetbrains.plugins.go" pluginName="Go" />
+              </dataSet>
+            </plugins>
+          </entry>
+          <entry key="pubspec.lock">
+            <plugins>
+              <dataSet>
+                <plugin pluginId="Dart" pluginName="Dart" />
+              </dataSet>
+            </plugins>
+          </entry>
         </featureMap>
-        <option name="lastUpdateTime" value="1649956801104" />
+        <option name="lastUpdateTime" value="1651316401897" />
       </features>
     </option>
   </component>

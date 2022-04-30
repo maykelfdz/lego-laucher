@@ -7,13 +7,28 @@ group 'org.example'
 version '1.0-SNAPSHOT'
 
 repositories {
-    mavenCentral()
+    mavenCentral();
+}
+configurations {
+    // configuration that holds jars to include in the jar
+    extraLibs
 }
 
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+//    implementation(fileTree(dir: 'libs', include: ['*.jar']))
+    configurations.implementation.extendsFrom(configurations.extraLibs)
+
+
 }
+
+jar {
+    from {
+        configurations.extraLibs.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {

@@ -30,14 +30,14 @@
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/contrarletras" />
     <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
-    <property name="packagesearch.status.updated.ts" value="1649951523709" />
+    <property name="packagesearch.status.updated.ts" value="1651316368484" />
     <property name="project.wizard.group" value="JAVA_MODULE" />
     <property name="registry.to.advanced.settings.migration.build" value="IC-213.6777.52" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
   </component>
   <component name="TerminalCommandHistoryManager">
     <command-history-files>
-      <command-history-file filename="contrarletras-history" project-path="$USER_HOME$/IdeaProjects/contrarletras" last-access-time="1649960191625" />
+      <command-history-file filename="contrarletras-history" project-path="$USER_HOME$/IdeaProjects/contrarletras" last-access-time="1651316374396" />
     </command-history-files>
   </component>
 </application>

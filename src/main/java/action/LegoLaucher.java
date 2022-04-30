@@ -12,6 +12,7 @@ import com.intellij.openapi.ui.Messages;
 import com.intellij.openapi.ui.panel.ComponentPanel;
 import com.intellij.openapi.ui.panel.ComponentPanelBuilder;
 import jdk.jshell.JShell;
+//import com.prueba.jar.*;
 
 public class LegoLaucher extends AnAction {
 
@@ -22,19 +23,22 @@ public class LegoLaucher extends AnAction {
 
         callCMD();
         System.out.println("Salimos de lego laucher");
+
+//        PruebaJar pruebaJar = new PruebaJar();
+
         }
 
     public void callCMD(){
-        ProcessBuilder builder = new ProcessBuilder(
-            "cmd.exe", "/K", "dir");
+//        ProcessBuilder builder = new ProcessBuilder(
+//            "cmd.exe", "/K", "dir");
 //        "cmd.exe /K ", "dir");
 //        "cmd/k start", "dir");
-        builder.redirectErrorStream(true);
+//        builder.redirectErrorStream(true);
         Process p = null;
         try {
 
-//            Process process = Runtime.getRuntime().exec("cmd /c start cmd.exe /K " + "dir");
-            p = builder.start();
+            Process process = Runtime.getRuntime().exec("cmd /c start cmd.exe /K " + "dir");
+//            p = builder.start();
             BufferedReader r = new BufferedReader(new InputStreamReader(p.getInputStream()));
             String line;
             while (true) {
